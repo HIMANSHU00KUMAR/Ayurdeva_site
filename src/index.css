@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custombg {
+      background-image: linear-gradient(#18181880,#22222210),url('/assets/man.png');
+      background-position: center;
+      background-size: cover;
+    }
+  
+
+    .custom-gradient {
+        background: linear-gradient(to right, #121212 0%, #121212 46%, #010101 100%);
+        background-size: 300% 100%; /* Extend background to cover three times the element width */
+      }
+
