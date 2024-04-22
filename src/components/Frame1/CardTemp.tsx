@@ -47,7 +47,7 @@ const CardTemp: React.FC = () => {
   ];
 
   return (
-    <div className="z-10 self-center px-5 mt-0 w-full max-w-[1239px] max-md:max-w-full">
+    <div className="z-10 self-center px-5 mt-0 w-full max-w-[1239px] max-md:max-w-full ">
         <div className="flex gap-5 max-md:flex-col max-md:gap-0">
           {cardData.map((card, index) => (
             <div

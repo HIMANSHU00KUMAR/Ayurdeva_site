@@ -17,7 +17,7 @@ const Button: React.FC<ButtonProps> = ({ children, className }) => {
 
 const TextCard: React.FC = () => {
   return (
-    <div className="flex flex-col text-xl text-white max-w-[904px] ">
+    <div className="flex flex-col text-xl text-white min-h-[540px] max-w-[904px] ">
       <h1 className="w-full text-3xl text-yellow-50 max-md:max-w-full max-md:text-xl">
         Namaste, Welcome to Amrutam{" "}
       </h1>

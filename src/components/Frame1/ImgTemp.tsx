@@ -26,7 +26,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
 
 const ImgTemp: React.FC = () => {
   const heroSectionData: HeroSectionProps = {
-    imageUrl: "/assets/mansleep.png",
+    imageUrl: "/assets/mansleep (1).png",
     imageAlt: "Ayurvedic consultation",
   };
 

@@ -10,8 +10,5 @@
     }
   
 
-    .custom-gradient {
-        background: linear-gradient(to right, #121212 0%, #121212 46%, #010101 100%);
-        background-size: 300% 100%; /* Extend background to cover three times the element width */
-      }
+
 

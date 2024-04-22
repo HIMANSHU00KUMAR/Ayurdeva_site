@@ -23,12 +23,12 @@ const HeroFrame1: React.FC = () => {
 
       {/* Responsive Background Image and TextCard */}
 
-      <div className="relative bg-red-800 min-h-[640px] flex justify-end  max-md:w-full  max-md:justify-centers">
+      <div className="relative bg-[#951D1C] min-h-[640px] flex justify-end  max-md:w-full max-md:h-[540px]  max-md:justify-centers ">
 
-        <div className=" absolute max-w-[904px] top-28 left-10  max-md:left-10 max-md:w-[460px] max-md:text-center ">
+        <div className=" absolute max-w-[904px] top-28 left-10  max-md:left-3 max-md:h-full max-md:w-full ">
           <TextCard />
         </div>
-        <div className="max-w-[789px] min-h-[640px]  max-md:w-full custombg"></div>
+        <div className="max-w-[789px] min-h-[640px]  custombg max-md:w-full max-md:h-[740px]"></div>
         <div className=" max-w-[789px] min-h-[640px]  max-md:w-full max-md:hidden ">
           <ImgTemp />
         </div>
@@ -39,7 +39,7 @@ const HeroFrame1: React.FC = () => {
 
 
       {/* Responsive Cards */}
-      <div className="px-10 py-5 max-md:px-5 max-md:py-10">
+      <div className="px-10 py-5 max-md:px-5 max-md:py-16">
         <CardTemp />
       </div>
     </div>

@@ -21,7 +21,7 @@ const ExpertCard: React.FC<ExpertCardProps> = ({
 }) => {
     return (
         <div className="flex flex-col grow justify-center text-xl max-md:mt-10">
-            <div className="flex flex-col items-center pt-11 w-full bg-yellow-50 rounded-[40px]">
+            <div className="flex flex-col items-center pt-11 w-full  rounded-[40px]">
                 <img
                     loading="lazy"
                     src={imageSrc}
@@ -61,7 +61,7 @@ const ExpertCard: React.FC<ExpertCardProps> = ({
                         <div>{speciality}</div>
                     </div>
                 </div>
-                <button className="justify-center items-center self-stretch px-16 py-5 mt-8 font-semibold tracking-normal text-white bg-green-800 rounded-none leading-[90%] max-md:px-5">
+                <button className="justify-center items-center self-stretch px-16 py-5 mt-8 font-semibold tracking-normal text-white bg-green-800 rounded-br-[40px] rounded-bl-[40px] leading-[90%] max-md:px-5">
                     Book a session
                 </button>
             </div>
@@ -131,7 +131,7 @@ function HeroFrame7() {
                     <div className="shrink-0 w-3 rounded-full bg-stone-300 h-[9px]" />
                     <div className="shrink-0 w-3 rounded-full bg-stone-300 h-[9px]" />
                 </div>
-                <button className="flex gap-0.5 px-6 mt-11 text-2xl font-medium tracking-tight text-green-800 rounded-lg border border-green-800 border-solid bg-neutral-200 bg-opacity-40 leading-[58px] max-md:px-5 max-md:mt-10">
+                <button className=" flex gap-0.5 px-6 mt-11 text-2xl font-medium tracking-tight text-green-800 rounded-lg border border-green-800 border-solid bg-neutral-200 bg-opacity-40 leading-[58px] max-md:px-5 max-md:mt-10">
                     <span>Find more experts</span>
                     <img
                         loading="lazy"
