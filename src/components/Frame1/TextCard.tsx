@@ -19,7 +19,7 @@ const TextCard: React.FC = () => {
   return (
     <div className="flex flex-col text-xl text-white min-h-[540px] max-w-[904px] ">
       <h1 className="w-full text-3xl text-yellow-50 max-md:max-w-full max-md:text-xl">
-        Namaste, Welcome to Amrutam{" "}
+        Namaste, Welcome to Ayurdevaa{" "}
       </h1>
       <h2 className="mt-2 w-full text-4xl font-bold underline capitalize leading-[67px] max-md:max-w-full max-md:text-3xl max-md:leading-[62px]">
         Step into Holistic Healing with{" "}
